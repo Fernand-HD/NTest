@@ -1,0 +1,2039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{006202cf-ea41-46a0-ace7-e3fd37b286f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens">
+      <UniqueIdentifier>{8901913e-ac59-481a-bc92-a947ae43dd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\FlyTexts">
+      <UniqueIdentifier>{89612be3-29eb-489a-b716-3e328c63f12a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\FlashUIControllers">
+      <UniqueIdentifier>{16c0a27d-e47c-432c-89be-7da762eba097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\AdventureScreenFacets">
+      <UniqueIdentifier>{20add143-1b38-4913-8e05-dfee40f15d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientObjects">
+      <UniqueIdentifier>{a154eb29-c382-42f1-8aee-0817efb2e077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientObjects\MultistateObjects">
+      <UniqueIdentifier>{715ea95c-1db4-44fa-a612-1e9316b6cbbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientObjects\Pure">
+      <UniqueIdentifier>{0073b730-723d-4e60-bf72-78ec68ac1a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{9bafd1c6-ffff-4ef7-bad9-4964f719c9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PathFinder">
+      <UniqueIdentifier>{f6e64ac3-8a16-48a0-a05a-80a989d9498d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PathFinder\Path">
+      <UniqueIdentifier>{a0dcb8b8-cd8f-4241-9185-a3eb884dc527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PathFinder\TileWorld">
+      <UniqueIdentifier>{22bf646f-5455-43fe-9d66-ea5bc1b973e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{e6b2c268-8312-48eb-8c31-0a4daa1bdad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{54e4ba4b-b930-44c7-9b32-0cda42b62f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{497505a5-feb3-4c23-a682-aa76f1ffca39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics">
+      <UniqueIdentifier>{f58a6afb-3ef3-49b4-ae4c-dc9f45fb11b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\Heroes">
+      <UniqueIdentifier>{ff94f234-5ac2-46c9-bb6b-aa225dc628a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\World">
+      <UniqueIdentifier>{40d51a37-c4f8-491c-8621-43002f44bfff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\World\AIWorldFacets">
+      <UniqueIdentifier>{423868b5-001a-4996-aea3-b7fa5a053f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\Abilities">
+      <UniqueIdentifier>{f1a7c48f-c5da-498d-8608-b9884e286029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\Abilities\New Abilities">
+      <UniqueIdentifier>{1b372e95-f185-45f1-be73-6faceefcce64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\NatureMap">
+      <UniqueIdentifier>{280fea6c-8188-4308-ae70-c8773dae3dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\Dispatches">
+      <UniqueIdentifier>{0d84e298-7aa5-49e7-a767-9c1ccd370953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\VisibilityMap">
+      <UniqueIdentifier>{60d70600-3992-4c62-8df6-fab00cd5c273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\BaseObjects">
+      <UniqueIdentifier>{d81b166d-8d05-4a3d-bd55-c2e1f2dd31c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\Pickupable">
+      <UniqueIdentifier>{5b8f7b6b-ed3c-4ead-b154-cc02acccc113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\Buildings">
+      <UniqueIdentifier>{ebe82a91-df6a-4d69-a9d4-73726a034bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\Creeps">
+      <UniqueIdentifier>{46b3cd0f-22c0-4723-a222-1929a39bf274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\GameObjects">
+      <UniqueIdentifier>{b50b72ee-d61c-42c1-b725-0c9871f9ba15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\Statistics">
+      <UniqueIdentifier>{f517e216-a66a-41a9-9f28-f0abf91aa90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\Impulsive Buffs">
+      <UniqueIdentifier>{75508ac0-fc3b-4d35-a9ee-03ad347f16eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\Talents">
+      <UniqueIdentifier>{15237f67-ff3b-443a-bc45-bab0918e3dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\MovingUnit">
+      <UniqueIdentifier>{d5a42800-dc79-4e36-8d7a-bf879c03080f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\AIController">
+      <UniqueIdentifier>{2a488cad-0bf6-4181-8fb5-83556ca26f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logics\SmartRandom">
+      <UniqueIdentifier>{ba721941-942d-4dbb-a3c5-801000d13d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{b501bc23-389d-4207-9f7b-99ddc3f5373d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Formulas">
+      <UniqueIdentifier>{e648e56d-86a8-4e8e-b0e5-e0fb0804d29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stats">
+      <UniqueIdentifier>{be961d79-8af0-4dfd-854f-8bcdbcd0bb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{8ac6b33f-014f-4fdc-8ffe-c34fd29b1e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicsUtils">
+      <UniqueIdentifier>{22aad32c-7c80-482d-9318-01d0055a96bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMenu">
+      <UniqueIdentifier>{d5d3a47b-0595-444a-aa88-f98da1bdac48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StatisticClient">
+      <UniqueIdentifier>{d2258e1f-4f0e-49bf-91e3-8d6c6533d005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StatisticClient\StatisticsTypes">
+      <UniqueIdentifier>{dab77273-9d2b-4f11-9e60-5874115e4dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6208934b-4a33-46ca-8039-7afbb6a26ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{e93fda80-5a66-4362-9c5d-0e3f5674ecf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{9255f7cf-ac7c-44ed-89be-cb56180e2d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Http">
+      <UniqueIdentifier>{1676766c-d2b4-44fc-9e5c-51bf487a702d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DI">
+      <UniqueIdentifier>{e1d90729-d82e-4c02-b275-864b9fc56766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StarForce">
+      <UniqueIdentifier>{767bd865-30ce-4d9b-870e-1290cfe785c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="specific.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventureFlashInterface.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventureScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventureScreenBase.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventureScreenLogic.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageBloodMask.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCharStat.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="DieTimer.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameControl.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroRankCalculator.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="IAdventureScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameStatistics.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="IgnoreListStorage.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkersController.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimap.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="NaftaInfoProvider.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfoHelper.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfoMapper.hpp">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsInfo2d.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="PrecompiledTooltips.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesPreloader.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBlockingController.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyTexts.h">
+      <Filter>Screens\FlyTexts</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleFlyText.h">
+      <Filter>Screens\FlyTexts</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionBarController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnnouncementController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="AwardsController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="BindsController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffsController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CharInfoContainer.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CharInfoController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonCombatController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplainController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CTE_Controller.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorMessageController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="EscMenuController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalStatisticsController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashFSCommands.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendsController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="IChatMessageHook.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="IFlashChat.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="IgnoreListController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImpulseBuffsController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="MinimapController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestsController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueSoundPlayer.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartChatAntiSpam.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartChatController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="TalentPanelNew.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamInfoNew.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEventHandler.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitInfoNew.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="VotingForSurrenderController.h">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventureScreenFacets\GameOverEffect.h">
+      <Filter>Screens\AdventureScreenFacets</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAnimController.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAuraEffect.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientApplicators.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientBaseMovingUnit.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientBaseUnit.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientBuilding.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientChest.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientCreature.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientCreep.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientDispatch.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientFlagpole.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientHero.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientLogicObject.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientMinigamePlace.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientObjectHelpers.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientSceneObjectsHolders.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientSpawner.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientSummoned.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientTree.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientVisibilityMap.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientVotingForSurrender.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDispatchCursorClient.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFEffectRandom.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFEffectSwitcher.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFInvisibilityEffect.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFMinimapEffect.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFPlayAnimEffect.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFPriestessSignEffect.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFSimpleObjectClient.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFUnitSceneObjectModify.h">
+      <Filter>ClientObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientMultistateObject.h">
+      <Filter>ClientObjects\MultistateObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientNatureSceneObjectsHolder.h">
+      <Filter>ClientObjects\MultistateObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFPureClientCritter.h">
+      <Filter>ClientObjects\Pure</Filter>
+    </ClInclude>
+    <ClInclude Include="PFPureClientObject.h">
+      <Filter>ClientObjects\Pure</Filter>
+    </ClInclude>
+    <ClInclude Include="DBAbility.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBAdvMap.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBAnimations.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConsumable.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBDayNight.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBGameLogic.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBGuild.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBHeroesList.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBHeroRanks.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBImpulsiveBuffs.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DbMapList.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMinigamesTypes.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBPFEffect.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBResources.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBServer.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBSessionMessages.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBSessionRoots.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBSmartChat.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBStats.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBTalent.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBUnit.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBVisualRoots.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarPathFinder.h">
+      <Filter>PathFinder\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonPathFinder.h">
+      <Filter>PathFinder\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportedStruct.h">
+      <Filter>PathFinder\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>PathFinder\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="PathTools.h">
+      <Filter>PathFinder\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="PointChecking.h">
+      <Filter>PathFinder\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="RoutePathFinder.h">
+      <Filter>PathFinder\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="StandartPath2.h">
+      <Filter>PathFinder\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticPathInternal.h">
+      <Filter>PathFinder\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMap.h">
+      <Filter>PathFinder\TileWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>PathFinder\TileWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncMapStartup.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaps.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCollection.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDescriptionLoader.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLoadingUtility.hpp">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapStartup.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAdvMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAdvMapObject.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BadBehaviourComplaintCmd.hpp">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroActions.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PFPlayer.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBehaviourTracker.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBehaviourTracking.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventureCameraController.hpp">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToCameraController.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SplineCameraController.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="WarCraftCameraController.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryInterface.h">
+      <Filter>Logics\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="PFEaselPlayer.h">
+      <Filter>Logics\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="PFHero.h">
+      <Filter>Logics\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="PFHeroStates.h">
+      <Filter>Logics\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="PFHighlander.h">
+      <Filter>Logics\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="PFMaleHero.h">
+      <Filter>Logics\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="DayNightController.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceCalc.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="FPUState.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroSpawn.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAICommon.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAIWorld.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientObjectBase.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PFVoxelMap.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PFWorld.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PFWorldDummyProtection.hpp">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PFWorldObjectBase.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PFWorldProtection.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PFWorldRealProtection.hpp">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PFWorldRealProtectionUtility.hpp">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PointersHolder.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerMarkerHandler.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="WarFog.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldChecker.h">
+      <Filter>Logics\World</Filter>
+    </ClInclude>
+    <ClInclude Include="AIWorldFacets\FemaleMaleAssistEffect.h">
+      <Filter>Logics\World\AIWorldFacets</Filter>
+    </ClInclude>
+    <ClInclude Include="AIWorldFacets\VotingForSurrenderLogic.h">
+      <Filter>Logics\World\AIWorldFacets</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplAura.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplBounce.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplBuff.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplChainLightning.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplChannelling.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplDelegateDamage.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplFx.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplHelper.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplicator.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplicatorHistoryAnalysis.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplInstant.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplMod.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplMove.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplSpecial.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplSummon.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFApplUtils.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDBLinker.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFTargetSelector.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFTriggerApplicator.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetSelectorFormulaPars.h">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetSelectorHelper.hpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAbilityData.h">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAbilityInstance.h">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAITargetSelectors.h">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBaseAttackData.h">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFCastLimitations.h">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFMicroAI.h">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PFClientNatureMap.h">
+      <Filter>Logics\NatureMap</Filter>
+    </ClInclude>
+    <ClInclude Include="PFWorldNatureMap.h">
+      <Filter>Logics\NatureMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Rasterizer.h">
+      <Filter>Logics\NatureMap</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDispatch.h">
+      <Filter>Logics\Dispatches</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDispatchCursor.h">
+      <Filter>Logics\Dispatches</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDispatchFactory.h">
+      <Filter>Logics\Dispatches</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDispatchStrike1.h">
+      <Filter>Logics\Dispatches</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleRays.h">
+      <Filter>Logics\VisibilityMap</Filter>
+    </ClInclude>
+    <ClInclude Include="RayPixels.h">
+      <Filter>Logics\VisibilityMap</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugStateDump.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBaseUnit.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBaseUnitEvent.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBaseUnitStates.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBaseUnitUpdate.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBaseUseState.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBehaviour.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFCreature.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFLogicObject.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFSimpleObject.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFUnitAbilities.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFUniTarget.h">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFChest.h">
+      <Filter>Logics\Pickupable</Filter>
+    </ClInclude>
+    <ClInclude Include="PFConsumable.h">
+      <Filter>Logics\Pickupable</Filter>
+    </ClInclude>
+    <ClInclude Include="PFGlyph.h">
+      <Filter>Logics\Pickupable</Filter>
+    </ClInclude>
+    <ClInclude Include="PFGlyphManager.h">
+      <Filter>Logics\Pickupable</Filter>
+    </ClInclude>
+    <ClInclude Include="PFPickupable.h">
+      <Filter>Logics\Pickupable</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBattleBuilding.h">
+      <Filter>Logics\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBuildings.h">
+      <Filter>Logics\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="PFMainBuilding.h">
+      <Filter>Logics\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="PFMinigamePlace.h">
+      <Filter>Logics\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="PFTower.h">
+      <Filter>Logics\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAdvancedSummon.h">
+      <Filter>Logics\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBaseSpawner.h">
+      <Filter>Logics\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="PFCommonCreep.h">
+      <Filter>Logics\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="PFCreep.h">
+      <Filter>Logics\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="PFNeutralCreep.h">
+      <Filter>Logics\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="PFNeutralCreepBehavior.h">
+      <Filter>Logics\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="PFSummoned.h">
+      <Filter>Logics\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="PFSummonState.h">
+      <Filter>Logics\Creeps</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDeadBody.h">
+      <Filter>Logics\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFFlagpole.h">
+      <Filter>Logics\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFPet.h">
+      <Filter>Logics\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFRoadFlagpole.h">
+      <Filter>Logics\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFScriptedFlagpole.h">
+      <Filter>Logics\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PFTree.h">
+      <Filter>Logics\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroScoreWrapper.h">
+      <Filter>Logics\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroTitleCalculator.h">
+      <Filter>Logics\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAchievement.h">
+      <Filter>Logics\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="PFFactionStatistics.h">
+      <Filter>Logics\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="PFHeroStatistics.h">
+      <Filter>Logics\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="PFStatistics.h">
+      <Filter>Logics\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="PFStatisticsImpl.h">
+      <Filter>Logics\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="PFStatisticsStuff.h">
+      <Filter>Logics\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsStreak.h">
+      <Filter>Logics\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="PFImpulsiveBuffs.h">
+      <Filter>Logics\Impulsive Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="PFImpulsiveEvents.h">
+      <Filter>Logics\Impulsive Buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="PFTalent.h">
+      <Filter>Logics\Talents</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionResolver.h">
+      <Filter>Logics\MovingUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="PathChecker.h">
+      <Filter>Logics\MovingUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBaseMovingUnit.h">
+      <Filter>Logics\MovingUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionPointChecker.h">
+      <Filter>Logics\MovingUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAIController.h">
+      <Filter>Logics\AIController</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAIControllerInterfaces.h">
+      <Filter>Logics\AIController</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAIHelper.h">
+      <Filter>Logics\AIController</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAIStates.h">
+      <Filter>Logics\AIController</Filter>
+    </ClInclude>
+    <ClInclude Include="PFBaseAIController.h">
+      <Filter>Logics\AIController</Filter>
+    </ClInclude>
+    <ClInclude Include="PFSeriesAIController.h">
+      <Filter>Logics\AIController</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartRandom.h">
+      <Filter>Logics\SmartRandom</Filter>
+    </ClInclude>
+    <ClInclude Include="PFPostFXFader.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PFPostFXParams.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PFRenderInterface.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PFRenderUtils.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PFRenderWater.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultFormulaStorage.h">
+      <Filter>Formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="FormulaExecutor.h">
+      <Filter>Formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Data\GameLogic\FormulaPars.h">
+      <Filter>Formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="StringExecutor.h">
+      <Filter>Formulas</Filter>
+    </ClInclude>
+    <ClInclude Include="PFPredefinedUnitVariables.h">
+      <Filter>Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Stat.hpp">
+      <Filter>Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueWithModifiers.hpp">
+      <Filter>Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="PFFsm.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="PFState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericAbuseController.h">
+      <Filter>LogicsUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSelector.h">
+      <Filter>LogicsUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="PFCheat.h">
+      <Filter>LogicsUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="PFGameLogicDebugVisual.h">
+      <Filter>LogicsUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="PFGameLogicLog.h">
+      <Filter>LogicsUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="PFLogicDebug.h">
+      <Filter>LogicsUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplayInfo.h">
+      <Filter>LogicsUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenuInterfaces.h">
+      <Filter>GameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionEventType.h">
+      <Filter>StatisticClient</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionEventTypeDef.h">
+      <Filter>StatisticClient</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogicStatisticsTypes.h">
+      <Filter>StatisticClient\StatisticsTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\PF\Server\Statistic\StatisticsCommonTypes.h">
+      <Filter>StatisticClient\StatisticsTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventureScreenEvents.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdventureTooltip.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnnouncementParams.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientVisibilityFlags.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientVisibilityHelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBSound.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DerStatsNameMap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDebug.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDebugImpl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PFResourcesCollection.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PFResourcesCollectionClient.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PFUIEvent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfoHelper.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesCollection.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialSplash.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitNameMap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisibilityHelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaValueSettable.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAIContainer.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildEmblem.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpStuff.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="ISocialConnection.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialBootstrap.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialConnection.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="DI\DI.hpp">
+      <Filter>DI</Filter>
+    </ClInclude>
+    <ClInclude Include="DI\TypeInfo.hpp">
+      <Filter>DI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureFlashInterface.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureScreenBase.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureScreenDebug.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureScreenLogic.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageBloodMask.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCharStat.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="DieTimer.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroRankCalculator.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="IgnoreListStorage.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkersController.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimap.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectInfoHelper.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectsInfo2d.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecompiledTooltips.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcesPreloader.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="TestingUtils.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBlockingController.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyTexts.cpp">
+      <Filter>Screens\FlyTexts</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleFlyText.cpp">
+      <Filter>Screens\FlyTexts</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionBarController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnouncementController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="AwardsController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="BindsController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffsController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="CharInfoContainer.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="CharInfoController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonCombatController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplainController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="CTE_Controller.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorMessageController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="EscMenuController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalStatisticsController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashFSCommands.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendsController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="IgnoreListController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ImpulseBuffsController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimapController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestsController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueSoundPlayer.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartChatController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="TalentPanelNew.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamInfoNew.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitInfoNew.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="VotingForSurrenderController.cpp">
+      <Filter>Screens\FlashUIControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureScreenFacets\GameOverEffect.cpp">
+      <Filter>Screens\AdventureScreenFacets</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAnimController.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAuraEffect.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientApplicators.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientBaseMovingUnit.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientBaseUnit.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientBuilding.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientChest.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientCreature.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientCreep.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientDispatch.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientFlagpole.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientHero.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientLogicObject.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientMinigamePlace.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientSceneObjectsHolders.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientSpawner.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientSummoned.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientTree.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientVisibilityMap.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientVotingForSurrender.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFDispatchCursorClient.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFEffectRandom.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFEffectSwitcher.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFInvisibilityEffect.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFMinimapEffect.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFPlayAnimEffect.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFPriestessSignEffect.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFSimpleObjectClient.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFUnitSceneObjectModify.cpp">
+      <Filter>ClientObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientMultistateObject.cpp">
+      <Filter>ClientObjects\MultistateObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientNatureSceneObjectsHolder.cpp">
+      <Filter>ClientObjects\MultistateObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFPureClientCritter.cpp">
+      <Filter>ClientObjects\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="PFPureClientObject.cpp">
+      <Filter>ClientObjects\Pure</Filter>
+    </ClCompile>
+    <ClCompile Include="DBAbility.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBAdvMap.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBAnimations.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConsumable.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBDayNight.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBGameLogic.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBGuild.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBHeroesList.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBHeroRanks.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBImpulsiveBuffs.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DbMapList.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMinigamesTypes.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBPFEffect.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBResources.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBServer.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBSessionMessages.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBSessionRoots.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBSmartChat.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBStats.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBTalent.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBUnit.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBVisualRoots.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarPathFinder.cpp">
+      <Filter>PathFinder\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonPathFinder.cpp">
+      <Filter>PathFinder\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="PathTools.cpp">
+      <Filter>PathFinder\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="RoutePathFinder.cpp">
+      <Filter>PathFinder\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="StandartPath2.cpp">
+      <Filter>PathFinder\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticPathInternal.cpp">
+      <Filter>PathFinder\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMap.cpp">
+      <Filter>PathFinder\TileWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>PathFinder\TileWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapDebug.cpp">
+      <Filter>PathFinder\TileWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncMapStartup.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCollection.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDescriptionLoader.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapStartup.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAdvMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAdvMapObject.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroActions.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PFPlayer.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBehaviourTracker.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBehaviourTracking.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureCameraController.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToCameraController.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SplineCameraController.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="WarCraftCameraController.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="PFEaselPlayer.cpp">
+      <Filter>Logics\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="PFHero.cpp">
+      <Filter>Logics\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="PFHeroClone.cpp">
+      <Filter>Logics\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="PFHeroesFactory.cpp">
+      <Filter>Logics\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="PFHeroStates.cpp">
+      <Filter>Logics\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="PFHighlander.cpp">
+      <Filter>Logics\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="PFMaleHero.cpp">
+      <Filter>Logics\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="DayNightController.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceCalc.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="FPUState.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroSpawn.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAIWorld.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PFVoxelMap.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PFWorld.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PFWorldObjectBase.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PFWorldProtection.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PointersHolder.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerMarkerHandler.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="WarFog.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldChecker.cpp">
+      <Filter>Logics\World</Filter>
+    </ClCompile>
+    <ClCompile Include="AIWorldFacets\FemaleMaleAssistEffect.cpp">
+      <Filter>Logics\World\AIWorldFacets</Filter>
+    </ClCompile>
+    <ClCompile Include="AIWorldFacets\VotingForSurrenderLogic.cpp">
+      <Filter>Logics\World\AIWorldFacets</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplAura.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplBounce.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplBuff.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplChainLightning.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplChannelling.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplDelegateDamage.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplFx.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplHelper.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplicator.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplicatorHistoryAnalysis.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplInstant.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplMod.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplMove.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplSpecial.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplSummon.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFApplUtils.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFTargetSelector.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFTriggerApplicator.cpp">
+      <Filter>Logics\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAbilityData.cpp">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAbilityDataNamemaps.cpp">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAbilityInstance.cpp">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAITargetSelectors.cpp">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBaseAttackData.cpp">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFCastLimitations.cpp">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFMicroAI.cpp">
+      <Filter>Logics\Abilities\New Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PFClientNatureMap.cpp">
+      <Filter>Logics\NatureMap</Filter>
+    </ClCompile>
+    <ClCompile Include="PFWorldNatureMap.cpp">
+      <Filter>Logics\NatureMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Rasterizer.cpp">
+      <Filter>Logics\NatureMap</Filter>
+    </ClCompile>
+    <ClCompile Include="PFDispatch.cpp">
+      <Filter>Logics\Dispatches</Filter>
+    </ClCompile>
+    <ClCompile Include="PFDispatchCursor.cpp">
+      <Filter>Logics\Dispatches</Filter>
+    </ClCompile>
+    <ClCompile Include="PFDispatchFactory.cpp">
+      <Filter>Logics\Dispatches</Filter>
+    </ClCompile>
+    <ClCompile Include="PFDispatchStrike1.cpp">
+      <Filter>Logics\Dispatches</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleRays.cpp">
+      <Filter>Logics\VisibilityMap</Filter>
+    </ClCompile>
+    <ClCompile Include="RayPixels.cpp">
+      <Filter>Logics\VisibilityMap</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugStateDump.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBaseUnit.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBaseUnitAppl.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBaseUnitEvent.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBaseUnitStates.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBaseUseState.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBehaviour.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFCreature.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFLogicObject.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFSimpleObject.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFUnitAbilities.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFUniTarget.cpp">
+      <Filter>Logics\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFChest.cpp">
+      <Filter>Logics\Pickupable</Filter>
+    </ClCompile>
+    <ClCompile Include="PFConsumable.cpp">
+      <Filter>Logics\Pickupable</Filter>
+    </ClCompile>
+    <ClCompile Include="PFGlyph.cpp">
+      <Filter>Logics\Pickupable</Filter>
+    </ClCompile>
+    <ClCompile Include="PFGlyphManager.cpp">
+      <Filter>Logics\Pickupable</Filter>
+    </ClCompile>
+    <ClCompile Include="PFPickupable.cpp">
+      <Filter>Logics\Pickupable</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBattleBuilding.cpp">
+      <Filter>Logics\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBuildings.cpp">
+      <Filter>Logics\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="PFMainBuilding.cpp">
+      <Filter>Logics\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="PFMinigamePlace.cpp">
+      <Filter>Logics\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="PFTower.cpp">
+      <Filter>Logics\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAdvancedSummon.cpp">
+      <Filter>Logics\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBaseSpawner.cpp">
+      <Filter>Logics\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="PFCommonCreep.cpp">
+      <Filter>Logics\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="PFCreep.cpp">
+      <Filter>Logics\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="PFNeutralCreep.cpp">
+      <Filter>Logics\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="PFNeutralCreepBehavior.cpp">
+      <Filter>Logics\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="PFSummoned.cpp">
+      <Filter>Logics\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="PFSummonState.cpp">
+      <Filter>Logics\Creeps</Filter>
+    </ClCompile>
+    <ClCompile Include="PFDeadBody.cpp">
+      <Filter>Logics\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFFlagpole.cpp">
+      <Filter>Logics\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFPet.cpp">
+      <Filter>Logics\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFRoadFlagpole.cpp">
+      <Filter>Logics\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFScriptedFlagpole.cpp">
+      <Filter>Logics\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PFTree.cpp">
+      <Filter>Logics\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroScoreWrapper.cpp">
+      <Filter>Logics\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroTitleCalculator.cpp">
+      <Filter>Logics\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAchievement.cpp">
+      <Filter>Logics\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="PFFactionStatistics.cpp">
+      <Filter>Logics\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="PFHeroStatistics.cpp">
+      <Filter>Logics\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="PFStatistics.cpp">
+      <Filter>Logics\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="PFStatisticsStuff.cpp">
+      <Filter>Logics\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="PFImpulsiveBuffs.cpp">
+      <Filter>Logics\Impulsive Buffs</Filter>
+    </ClCompile>
+    <ClCompile Include="PFImpulsiveEvents.cpp">
+      <Filter>Logics\Impulsive Buffs</Filter>
+    </ClCompile>
+    <ClCompile Include="PFTalent.cpp">
+      <Filter>Logics\Talents</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionResolver.cpp">
+      <Filter>Logics\MovingUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBaseMovingUnit.cpp">
+      <Filter>Logics\MovingUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBaseMovingUnitDebug.cpp">
+      <Filter>Logics\MovingUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionPointChecker.cpp">
+      <Filter>Logics\MovingUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAIController.cpp">
+      <Filter>Logics\AIController</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAIHelper.cpp">
+      <Filter>Logics\AIController</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAIStates.cpp">
+      <Filter>Logics\AIController</Filter>
+    </ClCompile>
+    <ClCompile Include="PFBaseAIController.cpp">
+      <Filter>Logics\AIController</Filter>
+    </ClCompile>
+    <ClCompile Include="PFSeriesAIController.cpp">
+      <Filter>Logics\AIController</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartRandom.cpp">
+      <Filter>Logics\SmartRandom</Filter>
+    </ClCompile>
+    <ClCompile Include="PFPostFXFader.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="PFPostFXParams.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="PFRenderInterface.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="PFRenderUtils.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="PFRenderWater.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultFormulaStorage.cpp">
+      <Filter>Formulas</Filter>
+    </ClCompile>
+    <ClCompile Include="FormulaExecutor.cpp">
+      <Filter>Formulas</Filter>
+    </ClCompile>
+    <ClCompile Include="StringExecutor.cpp">
+      <Filter>Formulas</Filter>
+    </ClCompile>
+    <ClCompile Include="PFPredefinedUnitVariables.cpp">
+      <Filter>Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Stat.cpp">
+      <Filter>Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="PFFsm.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="PFState.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericAbuseController.cpp">
+      <Filter>LogicsUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSelector.cpp">
+      <Filter>LogicsUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="PFCheat.cpp">
+      <Filter>LogicsUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="PFGameLogicDebugVisual.cpp">
+      <Filter>LogicsUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="PFGameLogicLog.cpp">
+      <Filter>LogicsUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="PFLogicDebug.cpp">
+      <Filter>LogicsUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionEventType.cpp">
+      <Filter>StatisticClient</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogicStatisticsTypes.cpp">
+      <Filter>StatisticClient\StatisticsTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\PF\Server\Statistic\StatisticsCommonTypes.cpp">
+      <Filter>StatisticClient\StatisticsTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureScreenEvents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdventureTooltip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientVisibilityHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DerStatsNameMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PFDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PFDebugCommands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PFResourcesCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PFUIEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialSplash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitNameMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisibilityHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAIContainer.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldScript.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildEmblem.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpStuff.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialBootstrap.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialConnection.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="DI\DI.cpp">
+      <Filter>DI</Filter>
+    </ClCompile>
+    <ClCompile Include="StarForce\zzz_StarForce.cpp">
+      <Filter>StarForce</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommonScreens.component">
+      <Filter>Screens</Filter>
+    </None>
+    <None Include="Screens.component">
+      <Filter>Screens</Filter>
+    </None>
+    <None Include="ScreensLogics.component">
+      <Filter>Screens</Filter>
+    </None>
+    <None Include="PFClientObjects.component">
+      <Filter>ClientObjects</Filter>
+    </None>
+    <None Include="DB.component">
+      <Filter>DB</Filter>
+    </None>
+    <None Include="DBImpulsiveBuffs.component">
+      <Filter>DB</Filter>
+    </None>
+    <None Include="PathFinder.component">
+      <Filter>PathFinder\Path</Filter>
+    </None>
+    <None Include="TileMap.component">
+      <Filter>PathFinder\TileWorld</Filter>
+    </None>
+    <None Include="PFAdvMap.component">
+      <Filter>Map</Filter>
+    </None>
+    <None Include="World.component">
+      <Filter>Map</Filter>
+    </None>
+    <None Include="PFPlayer.component">
+      <Filter>Player</Filter>
+    </None>
+    <None Include="PFWorld.component">
+      <Filter>Logics\World</Filter>
+    </None>
+    <None Include="WarFog.component">
+      <Filter>Logics\World</Filter>
+    </None>
+    <None Include="NatureMap.component">
+      <Filter>Logics\NatureMap</Filter>
+    </None>
+    <None Include="VisibilityMap.component">
+      <Filter>Logics\VisibilityMap</Filter>
+    </None>
+    <None Include="Pickupable.component">
+      <Filter>Logics\Pickupable</Filter>
+    </None>
+    <None Include="Tree.component">
+      <Filter>Logics\GameObjects</Filter>
+    </None>
+    <None Include="Render.component">
+      <Filter>Render</Filter>
+    </None>
+    <None Include="AI.component">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="all.component">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Effects.component">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="pf_gamelogic.refs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Version.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
